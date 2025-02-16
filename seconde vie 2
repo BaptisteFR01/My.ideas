@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seconde Vie Tech</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Bleu clair */
+            text-align: center;
+            color: #0056b3; /* Bleu foncé */
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #28a745; /* Bordure verte */
+        }
+        button {
+            background-color: #28a745; /* Vert */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #218838; /* Vert foncé */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>🌱 Bienvenue sur Seconde Vie Tech !</header>
+    
+    <section>
+        <h2>Pourquoi donner vos objets ?</h2>
+        <p>Au lieu de jeter, offrez une seconde vie à vos anciens appareils. Nous les réparons et les revalorisons !</p>
+        <img src="A_modern_repair_workshop_with_tools_neatly_arrange.png" alt="Atelier de réparation">
+    </section>
+    
+    <section>
+        <h2>Comment ça marche ?</h2>
+        <p>1️⃣ Vous donnez un appareil 🛠 2️⃣ Nous le réparons ♻️ 3️⃣ Il retrouve une utilité !</p>
+        <img src="A_comparison_of_an_old,_broken_smartphone_on_the_l.png" alt="Avant/après réparation d'un smartphone">
+    </section>
+    
+    <section>
+        <h2>Ma Passion pour la Réparation</h2>
+        <p>Depuis tout petit, j'adore démonter et réparer des objets pour leur donner une nouvelle vie. C'est une passion qui me permet de contribuer à un monde plus durable.</p>
+        <img src="A_passionate_repair_technician_carefully_disassemb.png" alt="Technicien réparant un smartphone">
+    </section>
+    
+    <section>
+        <h2>Nos Services</h2>
+        <p>Nous offrons des services de réparation pour une large gamme d'appareils : smartphones, ordinateurs, tablettes et bien plus encore. Chaque réparation est une nouvelle aventure !</p>
+    </section>
+    
+    <section>
+        <h2>Donner un objet</h2>
+        <p>Remplissez ce formulaire pour nous envoyer vos appareils :</p>
+        <img src="A_modern_online_donation_form_for_used_tech_device.png" alt="Formulaire de don d'objets tech">
+        <form>
+            <input type="text" placeholder="Votre nom" required><br><br>
+            <input type="email" placeholder="Votre email" required><br><br>
+            <textarea placeholder="Quel objet souhaitez-vous donner ?" required></textarea><br><br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</body>
+</html>
